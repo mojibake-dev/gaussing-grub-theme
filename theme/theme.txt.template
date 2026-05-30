@@ -1,0 +1,54 @@
+# gaussing GRUB theme — VHS/VCR aesthetic
+
+desktop-image: "background.png"
+desktop-color: "#000000"
+
++ label {
+    text = "%%DECK_LABEL%%"
+    font = "%%FONT_NAME%%"
+    color = "%%HUD_COLOR%%"
+    left = 6%
+    top = 7%
+}
+
++ label {
+    text = "ATR"
+    font = "%%FONT_NAME%%"
+    color = "%%HUD_COLOR%%"
+    left = 6%
+    top = 13%
+}
+
++ label {
+    id = "__timeout__"
+    text = "-0:00:%d"
+    font = "%%FONT_NAME%%"
+    color = "%%HUD_COLOR%%"
+    left = 6%
+    top = 19%
+}
+
++ label {
+    text = "SP"
+    font = "%%FONT_NAME%%"
+    color = "%%HUD_COLOR%%"
+    left = 6%
+    top = 25%
+}
+
++ boot_menu {
+    left = 6%
+    top = 68%
+    width = 60%
+    height = 28%
+    item_font = "%%FONT_NAME%%"
+    item_color = "%%MENU_COLOR%%"
+    selected_item_font = "%%FONT_NAME%%"
+    selected_item_color = "%%SELECTED_COLOR%%"
+    item_height = 68
+    item_padding = 0
+    item_spacing = 0
+    icon_width = 0
+    icon_height = 0
+    scrollbar = false
+}
